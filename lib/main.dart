@@ -12,14 +12,21 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("hello from my app"),
+          backgroundColor: Colors.cyan,
+          title: Text(
+            "Home Page",
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
         ),
         drawer: Drawer(),
         body: Container(
           color: Colors.red,
           child: Text(
-            "hello from first A container",
-            style: TextStyle(fontSize: 30, fontWeight: FontWeight.w400),
+            "Hello i am MOHAMMAD ALSHBOUL",
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.w700,
+            ),
           ),
         ),
       ),
