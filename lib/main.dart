@@ -19,16 +19,25 @@ class MyApp extends StatelessWidget {
           ),
         ),
         drawer: Drawer(),
-        body: Container(
-          color: Colors.red,
-          child: Text(
-            "Hello i am MOHAMMAD ALSHBOUL",
-            style: TextStyle(
-              fontSize: 30,
-              fontWeight: FontWeight.w700,
+        body: Row(children: [
+          Container(
+            margin: EdgeInsets.all(10),
+            padding: EdgeInsets.all(50),
+            width: 180,
+            height: 300,
+            color: Colors.blue,
+            child: Text("Hello 1st  "),
+          ),
+          Container(
+            margin: EdgeInsets.all(6),
+            width: 180,
+            height: 300,
+            color: Colors.green,
+            child: Text(
+              "Hello 1st  ",
             ),
           ),
-        ),
+        ]),
       ),
     );
   }
